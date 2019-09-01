@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
         <module name="server" />
-        <module name="model" />
         <module name="api" />
+        <module name="model" />
       </profile>
     </annotationProcessing>
   </component>

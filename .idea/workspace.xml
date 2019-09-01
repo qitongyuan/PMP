@@ -1,446 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="052277a7-583d-40e4-bd6f-54c69eb3524e" name="Default Changelist" comment="qty-firstcommit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/qty/common/response/BaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/qty/common/response/StatusCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/entity/AttendRecordEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/entity/ItemTypeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/entity/SysDeptEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/entity/SysDictEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/entity/SysLogEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/entity/SysMenuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/entity/SysPostEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/entity/SysRoleDeptEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/entity/SysRoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/entity/SysRoleMenuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/entity/SysUserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/entity/SysUserPostEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/entity/SysUserRoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/mapper/AttendRecordDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/mapper/ItemTypeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/mapper/SysDeptDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/mapper/SysDictDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/mapper/SysLogDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/mapper/SysMenuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/mapper/SysPostDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/mapper/SysRoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/mapper/SysRoleDeptDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/mapper/SysRoleMenuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/mapper/SysUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/mapper/SysUserPostDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qty/model/mapper/SysUserRoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/AttendRecordDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemTypeDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysDeptDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysDictDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysLogDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysMenuDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysPostDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysRoleDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysRoleDeptDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysRoleMenuDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysUserPostDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysUserRoleDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/qty/server/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/qty/server/config/KaptchaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/qty/server/config/ShiroConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/qty/server/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/qty/server/controller/AbstractController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/qty/server/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/qty/server/controller/SysLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/qty/server/controller/SysPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/qty/server/exception/CommonKaptchaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/qty/server/shiro/ShiroUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/qty/server/shiro/UserRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/css/print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/css/screen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/css/typography.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/fonts/DroidSans-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/fonts/DroidSans.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/images/collapse.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/images/expand.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/images/explorer_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/images/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/images/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/images/logo_small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/images/pet_store_api.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/images/throbber.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/images/wordnik_api.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/index.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lang/translator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lib/backbone-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lib/es5-shim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lib/handlebars-4.0.5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lib/highlight.9.1.0.pack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lib/highlight.9.1.0.pack_extended.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lib/jquery-1.8.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lib/jquery.ba-bbq.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lib/jquery.slideto.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lib/jquery.wiggle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lib/js-yaml.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lib/jsoneditor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lib/lodash.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lib/marked.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lib/object-assign-pollyfill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lib/sanitize-html.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/lib/swagger-oauth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/o2c.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/swagger-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/public/swagger/swagger-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/css/AdminLTE.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/css/all-skins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/css/bootstrap-table.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/css/daterangepicker-bs3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/css/index1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/img/LinkDebug.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/img/Starry.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/attend/attendRecord.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/item/itemType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/job/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/oss/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/sys/dept.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/sys/dict.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/sys/log.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/sys/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/sys/post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/sys/role.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/sys/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/navtab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/ajaxupload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/app.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/bootstrap-table.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/daterangepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/fastclick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/validator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/vue-validator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/vue.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/jqgrid/grid.locale-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/jqgrid/jquery.jqGrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/jqgrid/ui.jqgrid-bootstrap-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/jqgrid/ui.jqgrid-bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/jqgrid/ui.jqgrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/mobile/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/mobile/need/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/skin/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/skin/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/skin/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/skin/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/skin/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/skin/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/skin/moon/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/skin/moon/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/flat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/flat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/flat@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/futurico/futurico.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/futurico/futurico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/futurico/futurico@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/icheck.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/line.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/line@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/minimal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/minimal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/minimal@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/polaris/polaris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/polaris/polaris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/polaris/polaris@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/square.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/square@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/laydate/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/laydate/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/dest/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/dest/layui.mod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/lib/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/modules/icheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/modules/pjax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/img/collapse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/img/expand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/img/file.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/img/folder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/jquery.treegrid.bootstrap3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/jquery.treegrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/jquery.treegrid.extension.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/jquery.treegrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/tree.table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/awesomeStyle/awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/awesomeStyle/awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/awesomeStyle/fa.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/awesomeStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/metroStyle/img/line_conn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/metroStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/metroStyle/img/metro.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/metroStyle/img/metro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/metroStyle/metroStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/jquery.ztree.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/modules/attend/attendRecord.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/modules/item/itemType.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/modules/job/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/modules/sys/dept.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/modules/sys/dict.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/modules/sys/log.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/modules/sys/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/modules/sys/post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/modules/sys/role.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/modules/sys/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/pageOne.html" afterDir="false" />
+    <list default="true" id="052277a7-583d-40e4-bd6f-54c69eb3524e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -462,11 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/modules/sys/dict.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="225">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="148" column="4" selection-start-line="148" selection-end-line="152" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -487,10 +59,11 @@
       <find>lombok</find>
       <find>com.debug.pmp</find>
       <find>CommonException</find>
+      <find>commons-fileupload</find>
     </findStrings>
     <replaceStrings>
-      <replace />
       <replace>com.qty</replace>
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -500,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/api/pom.xml" />
         <option value="$PROJECT_DIR$/model/pom.xml" />
@@ -536,6 +108,7 @@
         <option value="$PROJECT_DIR$/server/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/qty/server/shiro/ShiroUtil.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -572,6 +145,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -579,160 +154,10 @@
               <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
               <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="qty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="qty" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="qty" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="qty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="qty" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="qty" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PMPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PMPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="qty" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -802,17 +227,27 @@
       <workItem from="1567219507056" duration="8517000" />
       <workItem from="1567253455499" duration="4606000" />
       <workItem from="1567300990811" duration="7569000" />
-      <workItem from="1567319224637" duration="8514000" />
+      <workItem from="1567319224637" duration="10441000" />
+      <workItem from="1567339518919" duration="326000" />
     </task>
+    <task id="LOCAL-00001" summary="firstcommitbyidea">
+      <created>1567329201425</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567329201426</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29206000" />
+    <option name="totallyTimeSpent" value="31459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20575693" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.102345414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -822,20 +257,20 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.52654386" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.12798265" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30477223" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40411702" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29392624" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
       <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -853,7 +288,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="qty-firstcommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="qty-firstcommit" />
+    <MESSAGE value="firstcommitbyidea" />
+    <option name="LAST_COMMIT_MESSAGE" value="firstcommitbyidea" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
@@ -895,13 +331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1998">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1211,8 +640,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/modules/sys/dict.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="225">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="148" column="4" selection-start-line="148" selection-end-line="152" selection-end-column="24" />
         </state>
       </provider>
     </entry>
