@@ -1,5 +1,6 @@
 package com.qty.server.shiro;
 
+import com.qty.model.entity.SysUserEntity;
 import com.qty.server.exception.CommonKaptchaException;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.crypto.hash.SimpleHash;
@@ -37,6 +38,14 @@ public class ShiroUtil {
         session.removeAttribute(key);
         System.out.println("要对比的验证码为 "+newCode);
         return newCode;
+    }
+
+    /**
+     *  shiro拿到登录的实体用户
+     * @return
+     */
+    public static SysUserEntity getUserEntity(){
+        return (SysUserEntity) SecurityUtils.getSubject().getPrincipal();
     }
 
     /**

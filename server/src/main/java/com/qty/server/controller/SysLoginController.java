@@ -4,6 +4,7 @@ import com.google.code.kaptcha.Constants;
 import com.google.code.kaptcha.Producer;
 import com.qty.common.response.BaseResponse;
 import com.qty.common.response.StatusCode;
+import com.qty.server.annotation.LogAnnotation;
 import com.qty.server.shiro.ShiroUtil;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
@@ -51,6 +52,7 @@ public class SysLoginController extends AbstractController{
     }
 
     @RequestMapping(value = "/sys/login",method = RequestMethod.POST)
+    @LogAnnotation("用户登录")
     @ResponseBody
     public BaseResponse login(String username,String password,String captcha){
         log.info("用户名：{} 密码：{} 验证码:{}",username,password,captcha);
