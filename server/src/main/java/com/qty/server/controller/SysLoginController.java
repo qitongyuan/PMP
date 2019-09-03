@@ -52,7 +52,7 @@ public class SysLoginController extends AbstractController{
     }
 
     @RequestMapping(value = "/sys/login",method = RequestMethod.POST)
-//    @LogAnnotation("用户登录")
+    //@LogAnnotation("用户登录")
     @ResponseBody
     public BaseResponse login(String username,String password,String captcha){
         log.info("用户名：{} 密码：{} 验证码:{}",username,password,captcha);
