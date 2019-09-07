@@ -9,4 +9,6 @@ import java.util.Map;
 public interface SysPostService extends IService<SysPostEntity> {
 
     PageUtil queryPage(Map<String,Object> params);
+
+    void savePost(SysPostEntity entity);
 }

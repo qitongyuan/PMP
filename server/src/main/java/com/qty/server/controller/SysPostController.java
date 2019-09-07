@@ -4,12 +4,18 @@ import com.google.common.collect.Maps;
 import com.qty.common.response.BaseResponse;
 import com.qty.common.response.StatusCode;
 import com.qty.common.utils.PageUtil;
+import com.qty.common.utils.ValidatorUtil;
+import com.qty.model.entity.SysPostEntity;
+import com.qty.server.annotation.LogAnnotation;
 import com.qty.server.service.SysPostService;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.MediaType;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
 
+import java.awt.*;
 import java.util.Map;
 
 /**
@@ -33,6 +39,23 @@ public class SysPostController extends AbstractController {
             response=new BaseResponse(StatusCode.Fail.getCode(),e.getMessage());
         }
         response.setData(resMap);
+        return response;
+    }
+
+    @LogAnnotation("新增岗位")
+    @RequestMapping(value = "/save",method = RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public BaseResponse save(@RequestBody @Validated SysPostEntity entity, BindingResult result){
+        String res= ValidatorUtil.checkResult(result);
+        if (StringUtils.isNotBlank(res)){
+            return new BaseResponse(StatusCode.InvalidParams.getCode(),res);
+        }
+        BaseResponse response=new BaseResponse(StatusCode.Success);
+        try{
+            log.info("新岗位的数据：{}",entity);
+            sysPostService.save(entity);
+        }catch (Exception e){
+            response=new BaseResponse(StatusCode.Fail.getCode(),e.getMessage());
+        }
         return response;
     }
 
