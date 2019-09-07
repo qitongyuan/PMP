@@ -3,6 +3,8 @@ package com.qty.server.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.google.common.collect.Maps;
+import com.qty.common.response.BaseResponse;
 import com.qty.common.response.StatusCode;
 import com.qty.common.utils.PageUtil;
 import com.qty.common.utils.QueryUtil;
@@ -15,6 +17,8 @@ import org.joda.time.DateTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.Map;
 
@@ -55,5 +59,16 @@ public class SysPostServiceImpl extends ServiceImpl<SysPostDao, SysPostEntity> i
         }
         entity.setCreateTime(DateTime.now().toDate());
         save(entity);
+    }
+
+    @Override
+    public void updatePost(SysPostEntity entity) {
+        SysPostEntity oldentity=this.getById(entity.getPostId());
+        if (oldentity!=null&&!oldentity.getPostCode().equals(entity.getPostCode())){
+            if (this.getOne(new QueryWrapper<SysPostEntity>().eq("post_code",entity.getPostCode()))!=null)
+                throw new RuntimeException(StatusCode.PostCodeHasExist.getMsg());
+        }
+        entity.setUpdateTime(DateTime.now().toDate());
+        updateById(entity);
     }
 }

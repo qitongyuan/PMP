@@ -59,4 +59,45 @@ public class SysPostController extends AbstractController {
         return response;
     }
 
+    /**
+     * 获取岗位详情
+     * @param id
+     * @return
+     */
+    @RequestMapping(value = "/info/{id}")
+    public BaseResponse info(@PathVariable Long id){
+        if (id==null||id<=0){
+            return new BaseResponse(StatusCode.InvalidParams);
+        }
+        BaseResponse response=new BaseResponse(StatusCode.Success);
+        Map<String,Object>resMap= Maps.newHashMap();
+        try{
+            log.info("岗位详情数据: {}",id);
+            resMap.put("post",sysPostService.getById(id));
+        }catch (Exception e){
+            response=new BaseResponse(StatusCode.Fail.getCode(),e.getMessage());
+        }
+        response.setData(resMap);
+        return  response;
+    }
+
+    @RequestMapping(value = "/update",method = RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public BaseResponse update(@RequestBody @Validated SysPostEntity entity,BindingResult result){
+        String res=ValidatorUtil.checkResult(result);
+        if (StringUtils.isNotBlank(res)){
+            return new BaseResponse(StatusCode.InvalidParams.getCode(),res);
+        }
+        if (entity.getPostId()==null||entity.getPostId()<0){
+            return new BaseResponse(StatusCode.InvalidParams);
+        }
+        BaseResponse response=new BaseResponse(StatusCode.Success);
+        try{
+            log.info("更新岗位数据");
+            sysPostService.updatePost(entity);
+        }catch (Exception e){
+            response=new BaseResponse(StatusCode.Fail.getCode(),e.getMessage());
+        }
+        return response;
+    }
+
 }
