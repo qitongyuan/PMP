@@ -16,6 +16,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.awt.*;
+import java.util.Arrays;
 import java.util.Map;
 
 /**
@@ -52,7 +53,7 @@ public class SysPostController extends AbstractController {
         BaseResponse response=new BaseResponse(StatusCode.Success);
         try{
             log.info("新岗位的数据：{}",entity);
-            sysPostService.save(entity);
+            sysPostService.savePost(entity);
         }catch (Exception e){
             response=new BaseResponse(StatusCode.Fail.getCode(),e.getMessage());
         }
@@ -94,6 +95,18 @@ public class SysPostController extends AbstractController {
         try{
             log.info("更新岗位数据");
             sysPostService.updatePost(entity);
+        }catch (Exception e){
+            response=new BaseResponse(StatusCode.Fail.getCode(),e.getMessage());
+        }
+        return response;
+    }
+
+    @RequestMapping(value = "/delete",method = RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public BaseResponse delete(@RequestBody Long[]ids){
+        BaseResponse response=new BaseResponse(StatusCode.Success);
+        try{
+            log.info("删除岗位，数据:{}", Arrays.asList(ids));
+            sysPostService.deletePatch(ids);
         }catch (Exception e){
             response=new BaseResponse(StatusCode.Fail.getCode(),e.getMessage());
         }

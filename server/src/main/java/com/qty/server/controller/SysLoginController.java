@@ -51,6 +51,7 @@ public class SysLoginController extends AbstractController{
         ImageIO.write(image,"jpg",out);
     }
 
+
     @RequestMapping(value = "/sys/login",method = RequestMethod.POST)
     //@LogAnnotation("用户登录")
     @ResponseBody
@@ -58,10 +59,10 @@ public class SysLoginController extends AbstractController{
         log.info("用户名：{} 密码：{} 验证码:{}",username,password,captcha);
 
         //首先验证验证码是否正确
-        String kaptcha=ShiroUtil.getKaptcha(Constants.KAPTCHA_SESSION_KEY);
+/*        String kaptcha=ShiroUtil.getKaptcha(Constants.KAPTCHA_SESSION_KEY);
         if (!kaptcha.equals(captcha)){
             return new BaseResponse(StatusCode.InvalidCode);
-        }
+        }*/
         //校验账号密码
         try{
             Subject subject= SecurityUtils.getSubject();

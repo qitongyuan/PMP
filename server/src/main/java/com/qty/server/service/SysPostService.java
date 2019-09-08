@@ -13,4 +13,6 @@ public interface SysPostService extends IService<SysPostEntity> {
     void savePost(SysPostEntity entity);
 
     void updatePost(SysPostEntity entity);
+
+    void deletePatch(Long[]ids);
 }

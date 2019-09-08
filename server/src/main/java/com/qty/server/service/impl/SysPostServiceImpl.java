@@ -20,6 +20,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 @Service
@@ -70,5 +72,12 @@ public class SysPostServiceImpl extends ServiceImpl<SysPostDao, SysPostEntity> i
         }
         entity.setUpdateTime(DateTime.now().toDate());
         updateById(entity);
+    }
+
+    @Override
+    public void deletePatch(Long[] ids) {
+        /*mybatis-plus自带的删除*/
+        List list=Arrays.asList(ids);
+        removeByIds(list);
     }
 }
