@@ -12,7 +12,7 @@ import java.util.Set;
 @Mapper
 public interface SysDeptDao extends BaseMapper<SysDeptEntity> {
 
-    List<SysDeptEntity> queryList(Map<String, Object> params);
+    List<SysDeptEntity> queryList();
 
     List<SysDeptEntity> queryListV2(Map<String, Object> params);
 
